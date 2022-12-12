@@ -17,4 +17,12 @@ const shw=()=>{
     console.log(p1)
 
     document.getElementById('per').value=p1 
+    if(total<=175){
+        document.getElementById('fail').style.display="block"
+        document.getElementById('pass').style.display="none"
+    }
+    else{
+        document.getElementById('fail').style.display="none"
+        document.getElementById('pass').style.display="block"
+    }
 }

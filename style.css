@@ -5,7 +5,9 @@
 .main{
     height: 100vh;
     width: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+
+    background: linear-gradient(blue,purple);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,6 +16,7 @@
     height:550px;
     width:500px;
     background-color: aliceblue;
+    border-radius: 30px;
     /* display: flex; */
 }
 .top{
@@ -42,6 +45,7 @@
   width: 200px;
   margin-top: 20px;
   text-align: center;
+  
 }
 .fr{
     height: 100%;
@@ -76,4 +80,36 @@
     margin-top: 10px;
     text-align: center;
 }
+#btn{
+ height: 30px;
+ width: 150px;
+ background-color: black;
+ color: white;
+ font-size: 19px;
+}
+#btn:hover{
+    transition: all o.5 ease-in;
+    scale: 1.01;
+    background-color: blueviolet;
+
+}
+.pass{
+    height: 25px;
+    width: 100px;
+    background-color: green;
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.fail{
+    height: 25px;
+    width: 100px;
+    background-color: red;
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
 
